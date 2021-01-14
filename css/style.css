@@ -24,7 +24,7 @@ body {
     font-size:3.5rem;
     font-family:Helvetica;
 }
-.containerLogin h2 {
+.containerLogin label{
     color: #eeee;
     font-size:1.7rem;
     font-family:monospace;
@@ -75,10 +75,11 @@ body {
     font-size:3.5rem;
     font-family:Helvetica;
 }
-.containerSignup h2{
+.containerSignup label{
     color: #eeee;
     font-size:1.7rem;
     font-family:monospace;
+    font-weight: bold;
 }
 .nome{
     font:italic 11pt monospace;
