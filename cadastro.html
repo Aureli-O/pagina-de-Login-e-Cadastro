@@ -9,14 +9,11 @@
 <body>
     <section class="containerSignup">
         <h1>Cadastro</h1>
-        <h2>Nome</h2>
-        <div class="nomes">
-            <input type="text" name="fistName" id="fistName" placeholder="Primeiro nome" class="nome">
-            <input type="text" name="secondName" id="secondName" placeholder="Segundo nome" class="nome">
-        </div>
-        <h2>Email</h2>
+        <label for="nome">Nome</label>
+        <input type="text" name="fistName" id="nome" placeholder="Nome Completo" class="nome">
+        <label for="emailInput">Email</label>
         <input type="email" name="emailInput" id="emailInput" placeholder="Email" class="emailSignup">
-        <h2>Senha</h2>
+        <label for="passwordInput" for="passwordConfirmInput">Senha</label>
         <input type="password" name="passwordInput" id="password" placeholder="Senha" class="passwordSignup">
         <input type="password" name="passwordConfirmInput" id="passwordConfirm" placeholder="Confirmar senha" class="passwordSignup">
         <input type="button" value="Cadastre-se" class="btnlogin" onclick="signup()">
